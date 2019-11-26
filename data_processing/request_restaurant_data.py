@@ -6,25 +6,6 @@ from yelp.client import Client
 MY_API_KEY = '8mGvo0Su-eiW58FpAQuTEdBCRHnKSt2oa08Uy8R_7cDU8hZYZONhesEcEZ_fnzLLlxNiYgOjavrTjylwkOlRoj684ThnQSDjoh5dT19cvJurstQPhXaVuEtdi3GzXXYx'
 client = Client(MY_API_KEY)
 
-"""
-locations = ["College Park", 
-             "East Riverdale",
-             "Hyattsville",
-             "Langley Park",
-             "Mount Rainier",
-             "Chillum",
-             "New Carrollton",
-             "Greenbelt",
-             "Hillandale",
-             "Takoma Park",
-             "Beltsville",
-             "Silver Spring",
-             "White Oak",
-             "Glenn Dale",
-             "Fairland"
-             ]
-"""
-
 ROOT_DIR = sys.argv[1]
 
 locations = ["College Park MD", 
@@ -71,11 +52,3 @@ for loc in locations:
 		with open(file_path + '.json', 'w') as f:
 			json.dump(response, f, indent=2)
 		
-
-
-
-
-
-
-
-

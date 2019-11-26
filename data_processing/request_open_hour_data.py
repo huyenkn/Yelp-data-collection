@@ -12,7 +12,7 @@ b_id = []
 all_data = {}
 with open('md_all_restaurants_data.json') as f:
 	data = json.load(f)
-	# response = client.business.get_review_by_id('Mni5c7Ic0yb8F8OBVjDWHA')
+
 for i in range(len(data)):
 	b_id.append(data[i]['id'])
 
