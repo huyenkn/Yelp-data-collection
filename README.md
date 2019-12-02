@@ -3,5 +3,5 @@ I implement scripts to collect data of 5165 restaurants in 15 areas nearby Unive
 
 Data from other areas can be obtained by changing the location in "locations" list in request_restaurant_data.py file.
 
-I made modifications in [yelp-python](https://github.com/Yelp/yelp-python) repository and used it as the starting point of this repository. 
+I made modifications in [yelp-python](https://github.com/Yelp/yelp-python) and used it as the starting point of this repository. 
  
